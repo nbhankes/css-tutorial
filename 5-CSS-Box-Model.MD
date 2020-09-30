@@ -54,8 +54,41 @@ In the above code:
 10px applies to the left and right padding
 
 ## Understanding Margin
+Margin is the spacing between the your content's border and any adjacent HTML elements. The property declarations are the same as padding. Using auto for the shorthand method will often center a component. The code would look like this:
+```css
+.my-component {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+```
+The above code should center the component so that the left and right margins are always equal.
 
-Margin is the spacing between the your content's border and any adjacent HTML elements. The property declarations are the same as padding.
+## Understanding Height and Width
+In many cases, you may need your component to have a specific height or width. So it's important to understand how padding, margin, and border affect the dimensions of your component. Let's look at the following example:
+```css
+.my-content {
+    width: 400px;
+    height: 200px;
+    padding: 10px 10px;
+    margin: 20px 5px;
+    border: 5px solid red;
+}
+```
+In the above example, you might think that your component width would equal 400px. But this is not the case. Padding, margin, and border are added to the width and height. So, remembering that when using shorthand the first value applies to the top and bottom, our height is equal to 200px + 10px + 10px + 20px + 20px + 5px + 5px, or 270px. We add the size of the padding, margin, and border twice because they all apply to the top and bottom. 
+
+There is a CSS property that changes this behavior. The box-sizing property used with the border-box property value includes padding and border in the element's total width and height. See the example below: 
+```css
+.my-content {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    padding: 10px 10px;
+    margin: 20px 5px;
+    border: 5px solid red;
+}
+```
+In the above example, the padding and border are added inside of the declared width and height, meaning the calculated height would amount to 200px + 20px + 20px, or 240px.
 
 ## Conclusion
-You just learned about the CSS Box model, the border property, the padding property, the margin property, and gained some familiarity with the ways in which they can change how HTML elements render in the browser. Continue to the next tutorial to learn about CSS units.
+You just learned about the CSS Box model, the border property, the padding property, the margin property, the box-sizing property and gained some familiarity with the ways in which they can change how HTML elements render in the browser. Continue to the next tutorial to learn about CSS units.
