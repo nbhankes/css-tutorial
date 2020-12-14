@@ -611,7 +611,7 @@ Study and manipulate the Codepen example below to get a feel for how grid layout
 CSS grid layout can be used for page layouts, component layouts, form layout, or in any other use case you can imagine.
 
 
-# CSS Display Propery
+# CSS Display Property
 
 ## Introduction
 
