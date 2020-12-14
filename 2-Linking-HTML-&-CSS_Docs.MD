@@ -1,3 +1,5 @@
+# Part 2: Linking HTML to CSS Stylesheet
+
 ## Introduction
 This page will show you how to link a CSS style sheet with an HTML file. By linking these files, the style sheet will be able to access the content within the linked HTML document. This access allows web developers to use CSS selectors to begin altering the ways in which the layout of the linked HTML document renders on the browser.
 
