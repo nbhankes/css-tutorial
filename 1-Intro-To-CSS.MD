@@ -1,3 +1,5 @@
+# Part 1: Intro to CSS
+
 ## Introduction
 
 This page will give a high level overview of CSS. This will help bring context to the purpose and potential of CSS in modern web development. By the end of this page, you will understand the concept and basic syntax of CSS.
