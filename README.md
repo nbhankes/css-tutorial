@@ -1,7 +1,7 @@
 # A CSS Tutorial for the #vetswhocode non-profit
 
 ### [Part 1: Intro to CSS](#intro-to-css)
-### [Part 2: Linking HTML to CSS Stylesheet](linking-html-to-css-stylesheet)
+### [Part 2: Linking HTML to CSS Stylesheet](#linking-html-to-css-stylesheet)
 ### [Part 3: CSS Selectors](#css-selectors)
 ### [Part 4: CSS Properties](#css-properties)
 
