@@ -1,3 +1,5 @@
+# Part 7: Flexbox
+
 Modern web design can be challenging because your website has to look good on viewports ranging in size from an iPhone to a 27" desktop. The Flexbox system of design is a set of CSS properties that allow you to build responsive design layouts that will shrink and expand, orient elements, and define spacing between components as the viewport width increases and decreases.
 
 This tutorial will show you how to get started with flexbox and teach you about the various flexbox properties and their function.
