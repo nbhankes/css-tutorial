@@ -1,5 +1,6 @@
 # A CSS Tutorial for the #vetswhocode non-profit
 
+## Table of Contents
 ### [Part 1: Intro to CSS](#intro-to-css)
 ### [Part 2: Linking HTML to CSS Stylesheet](#linking-html-to-css-stylesheet)
 ### [Part 3: CSS Selectors](#css-selectors)
@@ -52,6 +53,7 @@ This code block shows an example of basic CSS syntax where all <div> elements fr
 
 The selector, in this case "div," is followed by curly braces. The CSS properties (background-color and width) assigned to this selector are placed within the brackets and supplied with CSS properties values (red and 50%). Property and property value pairs are always separated by semi colons.
 
+### [Return To Table of Contents](#table-of-contents)
 
 
 # Linking HTML to CSS Stylesheet
