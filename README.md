@@ -1,4 +1,6 @@
-# A CSS Tutorial for the #vetswhocode non-profit
+# 👋 Welcome
+
+I wrote this series for use in the #vetswhocode coding bootcamp non-profit. Use the links in the Table of Contents to navigate to the areas of knowledge that interest you. If you haven't heard of some of these concepts, each part has an introduction that will explain the concept before diving deeper.
 
 ## Table of Contents
 ### [Part 1: Intro to CSS](#intro-to-css)
