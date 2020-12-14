@@ -1,11 +1,12 @@
 # A CSS Tutorial for the #vetswhocode non-profit
 
-### Part 1: Intro to CSS
-### Part 2: Linking HTML to CSS Stylesheet
+### [Part 1: Intro to CSS](#intro-to-css)
+### [Part 2: Linking HTML to CSS Stylesheet](linking-html-to-css-stylesheet)
+### [Part 3: CSS Selectors](#css-selectors)
+### [Part 4: CSS Properties](#css-properties)
 
 
-
-# Part 1: Intro to CSS
+# Intro to CSS
 
 ## Introduction
 
@@ -46,7 +47,7 @@ The selector, in this case "div," is followed by curly braces. The CSS propertie
 
 
 
-# Part 2: Linking HTML to CSS Stylesheet
+# Linking HTML to CSS Stylesheet
 
 ## Introduction
 This page will show you how to link a CSS style sheet with an HTML file. By linking these files, the style sheet will be able to access the content within the linked HTML document. This access allows web developers to use CSS selectors to begin altering the ways in which the layout of the linked HTML document renders on the browser.
@@ -103,7 +104,7 @@ Your HTML code should now look like this:
 ```
   
   
-# Part 3: CSS Selectors
+# CSS Selectors
 
 ## Introduction
 This tutorial provides a definition of the CSS selector and lists the various ways to select an HTML element from within the CSS style sheet.
