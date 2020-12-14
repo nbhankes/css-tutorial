@@ -1,3 +1,5 @@
+# Part 5: CSS Box Model
+
 ## Introduction
 It's often useful to think of individual HTML elements as boxes within your larger page layout, or, in the case of a parent container with nested children, as a box-shaped container holding multiple HTML element boxes. As a designer, you have the power to adjust how these boxes appear and interact with one another.
 
