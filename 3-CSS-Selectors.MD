@@ -1,4 +1,4 @@
-# Part 4: CSS Selectors
+# Part 3: CSS Selectors
 
 ## Introduction
 This tutorial provides a definition of the CSS selector and lists the various ways to select an HTML element from within the CSS style sheet.
