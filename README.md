@@ -111,6 +111,7 @@ Your HTML code should now look like this:
   </html>
   
 ```
+### [Return To Table of Contents](#table-of-contents)
   
   
 # CSS Selectors
@@ -175,6 +176,9 @@ div {
 Since the * selector applies to the entire document, the { font-family: sans-serif } declaration will apply to the paragraph tag. 
 Additionally. since the paragraph tag is nested within the div tag, the  { font-size: 24px }  declaration applies to this paragraph element.
 
+### [Return To Table of Contents](#table-of-contents)
+
+
 
 # CSS Properties
 
@@ -218,6 +222,8 @@ These properties allow to change the HTML design in the following ways:
 ## Exploring CSS Properties
 
 The following [link](https://www.w3schools.com/cssref/) leads to a list of CSS properties with brief descriptions. It's important to familiarize yourself with this list so you know what's available to you.
+
+### [Return To Table of Contents](#table-of-contents)
 
 
 
@@ -315,6 +321,9 @@ There is a CSS property that changes this behavior. The box-sizing property used
 ```
 In the above example, the padding and border are added inside of the declared width and height, meaning the calculated height would amount to 200px + 20px + 20px, or 240px.
 
+### [Return To Table of Contents](#table-of-contents)
+
+
 
 # CSS Units
 
@@ -393,6 +402,9 @@ In the above example, the font size of the .my-child-element class is 30px, or (
 
 ### vh
 1vh is equal to 1% of the viewport height. 50vh is equal to 50% of the viewport height. Because you never know what screen size will access your code, this unit allows you to set exactly how much of the screen will be occupied by a given element.
+
+### [Return To Table of Contents](#table-of-contents)
+
 
 
 # Flexbox
@@ -535,6 +547,9 @@ The align-self property allows you to alter the alignment of an individual flex-
 By default, flex-items inherit the align-items declaration from the parent flex-container
 Setting an align-self on a flex-items overrides this default behavior
 
+### [Return To Table of Contents](#table-of-contents)
+
+
 
 # CSS Grid
 
@@ -614,6 +629,9 @@ Study and manipulate the Codepen example below to get a feel for how grid layout
 
 CSS grid layout can be used for page layouts, component layouts, form layout, or in any other use case you can imagine.
 
+### [Return To Table of Contents](#table-of-contents)
+
+
 
 # CSS Display Property
 
@@ -641,6 +659,9 @@ Below is a list of the most common display property values:
 **none**: An element is removed from the DOM without being deleted. Surrounding elements will fill in to the space of the element with the display property value of none. Often paired with Javascript to make element disappear and appear at the click of a button.  
 
 These are just a few of the most common display property values that you will work with. For an exhaustive list, visit [Mozilla Developer Network CSS display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+### [Return To Table of Contents](#table-of-contents)
+
 
 
 # Specificity
@@ -726,7 +747,9 @@ As a developer, there are other ways to alter inheritance. Every single CSS prop
 <br />
 **unset**: resets the property to its natural value, which means that if the property is naturally inherited it acts like inherit, otherwise it acts like initial.
 
-*According to the rules of specificity, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.
+*According to the rules of specificity, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.*
+
+### [Return To Table of Contents](#table-of-contents)
 
 
 
@@ -788,3 +811,5 @@ body {
 Now your html is styled with the property values assigned to your custom properties of --background, --border, and --font. As you can see, if you needed to change the color palette of the entire website, all you would need to do is change the property value assigned to your custom property declarations inside of the root pseudo-class.
 
 The benefits of CSS custom properties are not limited to colors and you're really only limited by your imagination.
+
+### [Return To Table of Contents](#table-of-contents)
