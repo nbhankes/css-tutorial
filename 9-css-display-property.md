@@ -23,7 +23,7 @@ Below is a list of the most common display property values:
 <br />
 **none**: An element is removed from the DOM without being deleted. Surrounding elements will fill in to the space of the element with the display property value of none. Often paired with Javascript to make element disappear and appear at the click of a button.  
 
-These are just a few of the most common display property values that you will work with. For an exhaustive list, visit Mozilla Developer Network CSS display
+These are just a few of the most common display property values that you will work with. For an exhaustive list, visit [Mozilla Developer Network CSS display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
 ## Conclusion
 Every HTML element has a default display property value, but you can change them to suit your needs. In this page you learned about several common display property values.
