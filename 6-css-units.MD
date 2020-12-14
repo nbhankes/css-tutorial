@@ -1,3 +1,5 @@
+# Part 6: CSS Units
+
 ## Introduction
 CSS offers many different units for use when declaring property value heights, widths, and sizing, and these units are calculated in various ways. By understanding the various options, you'll be able to achieve the desired look and page layout.
 
