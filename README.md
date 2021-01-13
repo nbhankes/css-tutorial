@@ -14,6 +14,7 @@ This series was developed for use in the #vetswhocode coding bootcamp non-profit
 ### [Part 9: CSS Display Property](#css-display-property)
 ### [Part 10: Specificity](#specificity)
 ### [Part 11: CSS Custom Properties](#css-custom-properties)
+### [Part 12: Mobile First and Responsive Design](#mobile-first-and-responsive-design)
 
 
 # Intro to CSS
@@ -813,5 +814,98 @@ body {
 Now your html is styled with the property values assigned to your custom properties of --background, --border, and --font. As you can see, if you needed to change the color palette of the entire website, all you would need to do is change the property value assigned to your custom property declarations inside of the root pseudo-class.
 
 The benefits of CSS custom properties are not limited to colors and you're really only limited by your imagination.
+
+### [Return To Table of Contents](#table-of-contents)
+
+# Mobile First and Responsive Design
+
+## Introduction
+
+Because your web designs will be viewed on screens ranging from an old iPhone to a 27" iMac and beyond, you'll often encounter design situations where the website will require two or more designs in order to look nice and remain functional across multiple screen widths. Responsive design is web design that renders well at any browser size.
+
+When developing a website or app from the ground up, you'll find that beginning by designing for mobile has many advantages.
+
+
+## Prerequisites
+
+By now you should have attempted to build a website with html and css.
+
+## Understanding the Mobile First Philosophy
+
+Mobile first design simply means that developers begin their project by designing for mobile. This isn't simply an opinion, but there's logic behind it. Here are some key reasons this approach makes sense:
+
+1) Mobile applications have bandwidth constraints, meaning that only core functionality should be included in mobile design.
+It's most often easier to add to a design than to take away. So starting with a no frills, basic functionality design forces you to streamline and avoid the type of complexity that makes life harder for developers and users, alike.
+
+Due to bandwidth constraints, you'll want to avoid animations, excessive pictures, and gradients, giving you more time to focus on things like functionality, user experience, and accessibility.
+The focus on core functionality increases your chances of not bogging down on functionality and designs that aren't necessary to launch your project. This makes you more likely to finally complete side project!
+
+2) HTML tags most often default to a display property value of block.
+
+A mobile phone design is essentially a narrow column with HTML design elements stacked on top of each other. The default block property value automatically stacks HTML elements on top of one another, meaning that, by default, the HTML will be (mostly) optimized for mobile viewing. It's when screens become wider that developers begin placing items side by side in order to fill the space. Let's look at an example from Airbnb:
+
+
+![airbnb mobile design example](https://dev-to-uploads.s3.amazonaws.com/i/rmrsqecgeh9v3yl69md7.JPG)
+
+If we look at the layout of the above mobile Airbnb page, almost all containers are stacked on top of one another. This is often the default behavior for HTML elements, so before you even apply CSS to your html, the layout is close to your mobile design needs.
+
+Oppose this to the desktop layout below:
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/zcgskb65g8l89x2jxhwn.JPG)
+
+It's the exact same content, but now we see the design splitting into two major columns. This is not the default behavior for html and requires additional CSS to achieve.
+
+3) Google search algorithms place added value on websites optimized for mobile viewing.
+By starting with mobile design first, you ensure you'll have better odds of being found by the world's most popular search engine.
+
+4) Mobile browsing is becoming the new normal.
+
+5) When you finish your mobile design, your site will work on a desktop. 
+
+It may not look pretty, but it will be functional.
+
+## Responsive Design
+
+Responsive design is design that optimizes for whatever browser width it displays in. The flexbox display property is valuable for this as are the following CSS functions.
+
+### @media Queries
+As a developer, you have several tools to help you display the website differently depending on the browser width. @media queries are, as of 2020, the best CSS solution to this problem:
+
+ "The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries. With it, you specify a media query and a block of CSS to apply to the document if and only if the media query matches the device on which the content is being used."
+
+In terms of mobile development, you can have different sections of code apply to different browser widths by setting up @media queries. Let's look at an example to so you understand the concept:
+
+```css
+body {
+    background-color: white; 
+}
+
+@media only screen and (max-width: 500px) { 
+
+body { 
+    background-color: blue; 
+} 
+
+}
+```
+
+In the example above, when the browser is less than 500 pixels in width, the @media rule takes over and the body background color will render as blue. When the browser width is greater than 55 pixels, the body background renders as white.
+
+### clamp()
+
+A newer approach that's gaining popularity is the clamp() CSS function. The clamp() function takes in three values that allow developers to set a minimum, preferred, and maximum value to any property. The order is as follows clamp(minimum value, preferred value, maximum value).
+
+Let's takes a look at an example:
+
+```css
+font-size: clamp(1rem, 2.5vw, 2rem); 
+```
+
+In the above example, the font size render at a maximum of 2 rems and a minimum of 2.5vw. This approach allows to you create responsive sizing that doesn't get too large or small at the far edges of any range. This is the type of CSS function you'll want to play around with to understand more. 
+
+
+Here's a demo from the MDN documentation worth looking at: [clamp() demo](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp())
+
+# The End.
 
 ### [Return To Table of Contents](#table-of-contents)
